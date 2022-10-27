@@ -1,7 +1,7 @@
 #include <XPLMDefs.h>
 #include <XPLMPlugin.h>
-//#include <XPLMProcessing.h>
-//#include <XPLMUtilities.h>
+#include <XPLMProcessing.h>
+#include <string.h>
 
 float flighloopCb(float /*inElapsedSinceLastCall*/, float /*inElapsedTimeSinceLastFlightLoop*/, int /*inCounter*/, void * /*inRefcon*/)
 {
