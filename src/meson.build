@@ -3,6 +3,5 @@ plugin_src = [
 ]
 
 shared_module('aplugin', plugin_src,
-    dependencies: [xpsdk_dep],
-    include_directories: xpsdk_inc
+    dependencies: [xpsdk_dep]
 )

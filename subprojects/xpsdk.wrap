@@ -1,0 +1,14 @@
+[wrap-file]
+directory = SDK
+source_url = https://developer.x-plane.com/wp-content/plugins/code-sample-generation/sample_templates/XPSDK303.zip
+source_filename = XPSDK303.zip
+source_hash = 11a550dc553876d8c0b7187ae2e1c7e9fee5909dce6d8469720cad51e5bcb7ff
+
+#patch_url = sdk_patch.tar.gz
+patch_filename = sdk_patch.tar.gz
+#patch_hash = 0
+
+#diff_files = xpsdk/sdk-1.patch
+
+[provide]
+dependency_names = sdk
