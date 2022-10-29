@@ -15,8 +15,6 @@ elif host_machine.system() == 'linux'
     add_project_arguments(['-DLIN=1', '-fPIC', '-fvisibility=hidden'], language: 'cpp')
 endif
 
-#xpsdk_dep = dependency('xpsdk')
-
 xpsdk_dep = subproject('xpsdk').get_variable('sdk_dep')
 
 subdir('src')
