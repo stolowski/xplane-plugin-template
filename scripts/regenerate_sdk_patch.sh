@@ -20,7 +20,7 @@ endif
 
 if host_machine.system() == 'windows'
     sdk_dep = declare_dependency(
-        link_args: ['-lXPLM_64', 'XPWidgets_64', '-L', meson.current_source_dir() + '/Libraries/Win'],
+	link_args: ['-lXPLM_64', '-lXPWidgets_64', '-L' + meson.current_source_dir() + '/Libraries/Win'],
         include_directories: include_directories(['CHeaders/XPLM', 'CHeaders/Widgets'])
     )
 endif
